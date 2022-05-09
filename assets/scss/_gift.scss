@@ -1,0 +1,19 @@
+.gift-box{
+    margin-top: 60px;
+    img{
+        width: 100%;
+    }
+    .button{
+        margin-bottom: 20px;
+         .btn{
+           width: 100%;
+            &disabled{
+              cursor: not-allowed;
+        }
+    }
+}
+.giftimg{
+    filter: blur(10px);
+    transition: 0.5s;
+}
+}
